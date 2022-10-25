@@ -1,0 +1,16 @@
+Structuring the folder inside the server:
+
+configurations
+Make a file called database.js in the config folder. The necessary code for connecting to the MongoDB database will be contained in this file.
+
+controllers
+
+The files in the controllers’ folder will contain the methods for the endpoints to interface with the database.
+
+models
+
+The files that specify the MongoDB schema will be found in the model’s folder.
+
+routers
+
+The files with the endpoints will be found in the routers folder.
